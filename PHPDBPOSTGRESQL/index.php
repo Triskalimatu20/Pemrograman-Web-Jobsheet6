@@ -19,7 +19,7 @@ pg_set_client_encoding($conn, 'UTF8');
 // Pakai alias agar array assoc tetap menggunakan key "Nama", "Nim", dst.
 $sql = 'SELECT
             "Nim"       AS "Nim",
-            "=Nama"      AS "Nama",
+            "Nama"      AS "Nama",
             "Email"     AS "Email",
             "Jurusan"   AS "Jurusan"
         FROM "TB_Mahasiswa"
